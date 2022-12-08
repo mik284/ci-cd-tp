@@ -5,6 +5,8 @@ test('should return responding day string', () => {
 	let day = dayOfWeek(new Date('12/5/2022'))
 	expect(day).toBe("Monday");
 
+
+    
 	day = dayOfWeek(new Date('12/6/2022'))
 	expect(day).toBe("Tuesday");
 

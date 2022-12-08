@@ -6,7 +6,7 @@ const dayOfWeek = (date = new Date())=>{
 try {
     document.getElementById("day").innerText=dayOfWeek()
 } catch (error) {
-    console.log(error);
+    console.log({message: error.message});
 }
 
 exports.dayOfWeek= dayOfWeek
