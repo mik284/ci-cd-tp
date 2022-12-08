@@ -1,1 +1,14 @@
-change updated
+on: push
+name: Slack Notification
+jobs:
+  slackNotification:
+    name: Day Of The Week
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Slack Notification
+      uses: rtCamp/action-slack-notify@v2
+      env:
+        SLACK_TITLE: 'Github Action Notifications'
+        SLACK_COLOR: ${{ job.status }}
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
