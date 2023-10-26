@@ -1,6 +1,6 @@
 # CI/CD SIMPLE PPROJECT
 
-## sample pics
+## sample pics of the project
 1. Github Workflows
 
 ![workflows](https://user-images.githubusercontent.com/65639270/206652976-9830d89f-19ea-4217-9464-e5c4edb5cf3f.PNG)
